@@ -15,7 +15,7 @@ from collections import abc
 from loguru import logger
 from matplotlib import use
 from matplotlib.figure import Figure
-from matplotlib.backends.qt_compat import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt import (
     NavigationToolbar2QT as NavigationToolbar)
